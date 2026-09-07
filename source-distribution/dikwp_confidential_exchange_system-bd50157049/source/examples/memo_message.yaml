@@ -1,0 +1,12 @@
+dikwp_version: DCE-DIKWP-1
+mode: memo
+purpose: EXECUTIVE_BRIEFING
+classification: CONFIDENTIAL
+expires_at: "2026-12-31T23:59:59Z"
+title: "DIKWP confidential memo example"
+lanes:
+  D: "Observed facts and evidence stay in this lane."
+  I: "Key distinctions and boundaries stay in this lane."
+  K: "The integrated conclusion stays in this lane."
+  W: "Value constraints and priority tradeoffs stay in this lane."
+  P: "Action request, decision path, and next checkpoint stay in this lane."

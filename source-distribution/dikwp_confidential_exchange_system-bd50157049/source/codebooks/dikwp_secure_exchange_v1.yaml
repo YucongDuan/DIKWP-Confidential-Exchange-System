@@ -1,0 +1,38 @@
+codebook_id: DIKWP_SECURE_EXCHANGE_V1
+version: 1.0.0
+purpose: finite semantic disclosure for high-assurance confidential exchange
+lanes:
+  D:
+    D_FACT_PRESENT: "A factual item is present in the protected payload."
+    D_EVIDENCE_ATTACHED: "Evidence exists and is referenced by hash or sealed attachment."
+    D_NO_PERSONAL_DATA: "No personal data is intended in this exchange."
+    D_PERSONAL_DATA_PRESENT: "Personal data is present and must stay inside sealed payload only."
+    D_SYSTEM_LOG_PRESENT: "Operational log or system trace is present."
+  I:
+    I_RISK_NEW: "This message distinguishes a newly discovered risk from known risk."
+    I_POLICY_EXCEPTION: "This message distinguishes an exception request from normal workflow."
+    I_NEEDS_HUMAN_REVIEW: "This case differs from automatic handling and needs human review."
+    I_ACCESS_BOUNDARY: "This exchange concerns a recipient/access boundary decision."
+  K:
+    K_LOW_RISK: "Compiled assessment concludes low risk."
+    K_MEDIUM_RISK: "Compiled assessment concludes medium risk."
+    K_HIGH_RISK: "Compiled assessment concludes high risk."
+    K_INSUFFICIENT_EVIDENCE: "Current evidence is insufficient."
+    K_APPROVAL_CONDITIONED: "Approval depends on stated controls."
+  W:
+    W_PRIVACY: "Privacy is the leading value constraint."
+    W_SAFETY: "Safety is the leading value constraint."
+    W_LEGAL_COMPLIANCE: "Legal compliance is the leading value constraint."
+    W_HUMAN_DIGNITY: "Human dignity is the leading value constraint."
+    W_MINIMUM_DISCLOSURE: "Minimum disclosure is mandatory."
+  P:
+    P_APPROVE: "Approve under current constraints."
+    P_REJECT: "Reject under current constraints."
+    P_ESCALATE: "Escalate to named governance owner."
+    P_REQUEST_MORE_EVIDENCE: "Request additional evidence."
+    P_EMERGENCY_FREEZE: "Freeze action until review."
+note_codes:
+  N_NONE: "No extra note."
+  N_TIME_CRITICAL: "Time-critical handling."
+  N_LEGAL_HOLD: "Legal hold required."
+  N_CLIENT_VISIBLE: "Can be shown to client after approval."

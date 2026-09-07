@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dikwp-confidential-exchange"
+version = "1.0.0"
+description = "DIKWP semantic-minimized confidential exchange system"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42.0.0", "PyYAML>=6.0"]
+
+[project.scripts]
+dce = "dikwp_confidential_exchange.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

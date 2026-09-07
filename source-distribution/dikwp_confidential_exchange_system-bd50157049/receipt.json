@@ -1,0 +1,496 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:13:33.792130+00:00",
+  "source": {
+    "archive_path": "dikwp_confidential_exchange_system.zip",
+    "archive_bytes": 295582,
+    "sha256": "256c2eddd6d9bfbf3c7d9b44724a410753e2689631e807aaa1b28415560055af",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-Confidential-Exchange-System/95425990e31f20b4d4403e98e04d9588d656c5ee/dikwp_confidential_exchange_system.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/dikwp_confidential_exchange_system-bd50157049",
+  "unwrapped_directory": "dikwp_confidential_exchange_system",
+  "project_marker_directories": [
+    "."
+  ],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [],
+  "files": [
+    {
+      "archive_path": "dikwp_confidential_exchange_system/",
+      "output_path": "source",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/",
+      "output_path": "source/src",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/",
+      "output_path": "source/src/dikwp_confidential_exchange",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/__init__.py",
+      "output_path": "source/src/dikwp_confidential_exchange/__init__.py",
+      "kind": "file",
+      "bytes": 226,
+      "sha256": "6ea4d23deb424a205a27a6ac905a58ceec2519666a8935ff4fb26c8c75203916",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/util.py",
+      "output_path": "source/src/dikwp_confidential_exchange/util.py",
+      "kind": "file",
+      "bytes": 1445,
+      "sha256": "65a75a1b3702c6673d0132da4b61d000b3d3322088095964f7d8a6f481d79ed7",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/identity.py",
+      "output_path": "source/src/dikwp_confidential_exchange/identity.py",
+      "kind": "file",
+      "bytes": 3573,
+      "sha256": "6d9b03fa7504cf209dea4d72eb0d26f67def8a0ed38d4713d04311e942cebeb0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/dikwp.py",
+      "output_path": "source/src/dikwp_confidential_exchange/dikwp.py",
+      "kind": "file",
+      "bytes": 4531,
+      "sha256": "ba653c595bb7ebbbde6a30539632ebe944a3edf574d0f8f2eaa89bc8e5d67e4f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/crypto.py",
+      "output_path": "source/src/dikwp_confidential_exchange/crypto.py",
+      "kind": "file",
+      "bytes": 5949,
+      "sha256": "01d7b6717e6b06b7510e6e6ca11a32b81abebf841d6bd3179bfe3365b8407e54",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/audit.py",
+      "output_path": "source/src/dikwp_confidential_exchange/audit.py",
+      "kind": "file",
+      "bytes": 1368,
+      "sha256": "b3ea664902a97ac242db82486ffc5b5341d95d64cb2d8a9ed1585d306c31fa43",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/cli.py",
+      "output_path": "source/src/dikwp_confidential_exchange/cli.py",
+      "kind": "file",
+      "bytes": 3790,
+      "sha256": "ab2366c24b626a1dc413f1de3a8dc2ef94bacf02e2779018dd077ecbf4838df2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/src/dikwp_confidential_exchange/api.py",
+      "output_path": "source/src/dikwp_confidential_exchange/api.py",
+      "kind": "file",
+      "bytes": 630,
+      "sha256": "cdf41fb864eb92bc3111cedefc09d57ebae221ae51617cfb34f8feac192692de",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/codebooks/",
+      "output_path": "source/codebooks",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/codebooks/dikwp_secure_exchange_v1.yaml",
+      "output_path": "source/codebooks/dikwp_secure_exchange_v1.yaml",
+      "kind": "file",
+      "bytes": 2021,
+      "sha256": "343f4fc36bd940582a37b5386bf78dad6e28b6ad0c5071b7930d061abd873c83",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/schemas/",
+      "output_path": "source/schemas",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/schemas/dikwp_payload.schema.json",
+      "output_path": "source/schemas/dikwp_payload.schema.json",
+      "kind": "file",
+      "bytes": 719,
+      "sha256": "8ff1b923dca3211078d8a12dd1c9dc4e47081835aa78d3086d2622b84668bb2e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/examples/",
+      "output_path": "source/examples",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/examples/zdc_message.yaml",
+      "output_path": "source/examples/zdc_message.yaml",
+      "kind": "file",
+      "bytes": 544,
+      "sha256": "9b62af2db1767c1569c75db09e531787a7d517a3cc69b18fb1cef545f0420ae6",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/examples/memo_message.yaml",
+      "output_path": "source/examples/memo_message.yaml",
+      "kind": "file",
+      "bytes": 487,
+      "sha256": "6e1122dee83dc54b91f7462281eee4f83b1efc9718e4559764cf7c74a2276d20",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/tests/",
+      "output_path": "source/tests",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/tests/test_dce.py",
+      "output_path": "source/tests/test_dce.py",
+      "kind": "file",
+      "bytes": 3885,
+      "sha256": "2b316769895a7dcb420cddda909d461a5ff7e2611b4fb16da67dc2469db0bf50",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/",
+      "output_path": "source/docs",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/threat_model.md",
+      "output_path": "source/docs/threat_model.md",
+      "kind": "file",
+      "bytes": 1146,
+      "sha256": "d2b4c81a4e5380cab0d85e460e2233a3c9cde3156c7488c99f90a57fbe0a1232",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/architecture.md",
+      "output_path": "source/docs/architecture.md",
+      "kind": "file",
+      "bytes": 1111,
+      "sha256": "6fc655d26e734afce08037fe068f706d8746d0212b0dbecccdb121cededca248",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/operations_manual.md",
+      "output_path": "source/docs/operations_manual.md",
+      "kind": "file",
+      "bytes": 1040,
+      "sha256": "64a4691dc94e5079ecfa06d4189c79db1ce9e3c035459dec1d730b7244d569e2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/security_claims.md",
+      "output_path": "source/docs/security_claims.md",
+      "kind": "file",
+      "bytes": 1278,
+      "sha256": "ba6bc98d7da943b953fbcca9fc2f0f65f3fe13fb12b1517ac21ae388b1638528",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/role_separation.md",
+      "output_path": "source/docs/role_separation.md",
+      "kind": "file",
+      "bytes": 668,
+      "sha256": "00a6e9d1441f3dd93e15d1092f1d6da3e72fdaa873b496b1e525f2ab036b5d06",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/pqc_migration.md",
+      "output_path": "source/docs/pqc_migration.md",
+      "kind": "file",
+      "bytes": 695,
+      "sha256": "0905be6e4b17b3f194ffb97cc5070a4a28c1302f92d735675360482a9bf9dfac",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/dce_architecture.png",
+      "output_path": "source/docs/dce_architecture.png",
+      "kind": "file",
+      "bytes": 127364,
+      "sha256": "c6b524261f51a6bced4e0f980fd0c56ac50b8116d7020f073f4a10a9d075670a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/docs/dce_guarantee_boundary.png",
+      "output_path": "source/docs/dce_guarantee_boundary.png",
+      "kind": "file",
+      "bytes": 151006,
+      "sha256": "14fd163e6b5bc642c7d76909cb492f9988aa62f4fe02badc05711bc6b681077c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/scripts/",
+      "output_path": "source/scripts",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/scripts/demo.sh",
+      "output_path": "source/scripts/demo.sh",
+      "kind": "file",
+      "bytes": 1359,
+      "sha256": "e81e4e3e2ca66fe2de170f62fc5b47d2e1972e34974c82f2619bd17e8c80718c",
+      "original_mode": "0o100755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/scripts/hardening_check.py",
+      "output_path": "source/scripts/hardening_check.py",
+      "kind": "file",
+      "bytes": 577,
+      "sha256": "d451ea46371de2d8656a4d300f299294a39c1629a9351711a273da40198e0867",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/artifacts/",
+      "output_path": "source/artifacts",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/artifacts/demo/",
+      "output_path": "source/artifacts/demo",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/artifacts/demo/compiled.json",
+      "output_path": "source/artifacts/demo/compiled.json",
+      "kind": "file",
+      "bytes": 953,
+      "sha256": "4932108c617ab7cb37f2ff971d4180d171721ab41fbac7786301362cd4a03f6b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/artifacts/demo/message.dce.json",
+      "output_path": "source/artifacts/demo/message.dce.json",
+      "kind": "file",
+      "bytes": 22707,
+      "sha256": "5782cce7e34c32d77fe4268894398860f19a159cf73d2f141be940ea06811438",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/artifacts/demo/decrypted.json",
+      "output_path": "source/artifacts/demo/decrypted.json",
+      "kind": "file",
+      "bytes": 953,
+      "sha256": "4932108c617ab7cb37f2ff971d4180d171721ab41fbac7786301362cd4a03f6b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/artifacts/test_results.txt",
+      "output_path": "source/artifacts/test_results.txt",
+      "kind": "file",
+      "bytes": 129,
+      "sha256": "993d5d1199aadfcb2abe78b0a8e22f4a047562e003b749756b2f3849464270ee",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/requirements.txt",
+      "output_path": "source/requirements.txt",
+      "kind": "file",
+      "bytes": 98,
+      "sha256": "bd6ba14829609d7e4571d590f6f71d263f18f22b925941963fdc8243395e62c3",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/pyproject.toml",
+      "output_path": "source/pyproject.toml",
+      "kind": "file",
+      "bytes": 446,
+      "sha256": "28ce32355eb9ced61c5daeba411aa23d0ca2180045ab61b646b4d8d53d434e3d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/README.md",
+      "output_path": "source/README.md",
+      "kind": "file",
+      "bytes": 2523,
+      "sha256": "9ea2c16ba4b2958df32a65c9ec74f037f6d82dd68568ccbc8dfacce560fee31f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/.pytest_cache/",
+      "output_path": "source/.pytest_cache",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/.pytest_cache/README.md",
+      "output_path": "source/.pytest_cache/README.md",
+      "kind": "file",
+      "bytes": 302,
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/.pytest_cache/.gitignore",
+      "output_path": "source/.pytest_cache/.gitignore",
+      "kind": "file",
+      "bytes": 37,
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/.pytest_cache/CACHEDIR.TAG",
+      "output_path": "source/.pytest_cache/CACHEDIR.TAG",
+      "kind": "file",
+      "bytes": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/.pytest_cache/v/",
+      "output_path": "source/.pytest_cache/v",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/.pytest_cache/v/cache/",
+      "output_path": "source/.pytest_cache/v/cache",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/.pytest_cache/v/cache/nodeids",
+      "output_path": "source/.pytest_cache/v/cache/nodeids",
+      "kind": "file",
+      "bytes": 244,
+      "sha256": "00b1942f95d8aa2451d9a149095dd6513c11e4ece947d4bd563b2f5ca15daec5",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/policies/",
+      "output_path": "source/policies",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/policies/classification_policy.yaml",
+      "output_path": "source/policies/classification_policy.yaml",
+      "kind": "file",
+      "bytes": 587,
+      "sha256": "ef5ab0f31238133a83d16980f14011c861b53374d32ae51f83cc5ad5edd2a729",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_confidential_exchange_system/LICENSE.txt",
+      "output_path": "source/LICENSE.txt",
+      "kind": "file",
+      "bytes": 198,
+      "sha256": "2ea643e761eeb43820a33c3a73d3fa534921299706b59c5105ae504ec9f10b04",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}

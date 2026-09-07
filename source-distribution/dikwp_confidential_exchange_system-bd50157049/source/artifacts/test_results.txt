@@ -1,0 +1,3 @@
+DCE local test status:
+- pytest: 5 passed
+- demo script: completed identity generation, compile, encrypt, verify, decrypt, audit

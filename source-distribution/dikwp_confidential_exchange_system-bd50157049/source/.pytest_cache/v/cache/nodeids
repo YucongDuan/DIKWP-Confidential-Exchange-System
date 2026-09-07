@@ -1,0 +1,7 @@
+[
+  "tests/test_dce.py::test_audit_record",
+  "tests/test_dce.py::test_constant_ciphertext_size",
+  "tests/test_dce.py::test_roundtrip_zdc",
+  "tests/test_dce.py::test_tamper_signature_fails",
+  "tests/test_dce.py::test_zdc_rejects_free_text"
+]

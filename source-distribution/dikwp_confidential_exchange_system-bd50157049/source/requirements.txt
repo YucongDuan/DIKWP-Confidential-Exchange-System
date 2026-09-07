@@ -1,0 +1,4 @@
+cryptography>=42.0.0
+PyYAML>=6.0
+fastapi>=0.110.0; extra == "api"
+uvicorn>=0.29.0; extra == "api"

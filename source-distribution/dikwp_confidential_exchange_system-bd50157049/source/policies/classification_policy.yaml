@@ -1,0 +1,26 @@
+policy_id: DCE_CLASSIFICATION_POLICY_V1
+version: 1.0.0
+levels:
+  PUBLIC:
+    fixed_size: 4096
+    allowed_modes: [memo, zdc]
+    audit_required: false
+  INTERNAL:
+    fixed_size: 8192
+    allowed_modes: [memo, zdc]
+    audit_required: true
+  CONFIDENTIAL:
+    fixed_size: 16384
+    allowed_modes: [memo, zdc]
+    audit_required: true
+  SECRET:
+    fixed_size: 32768
+    allowed_modes: [zdc]
+    audit_required: true
+    two_person_compile: true
+  TOP_SECRET:
+    fixed_size: 65536
+    allowed_modes: [zdc]
+    audit_required: true
+    two_person_compile: true
+    air_gap_required: true

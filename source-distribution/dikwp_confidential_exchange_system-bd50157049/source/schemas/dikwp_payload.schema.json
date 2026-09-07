@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DCE DIKWP Payload",
+  "type": "object",
+  "required": ["dikwp_version", "mode", "purpose", "classification", "expires_at", "lanes"],
+  "properties": {
+    "dikwp_version": {"const": "DCE-DIKWP-1"},
+    "mode": {"enum": ["memo", "zdc"]},
+    "purpose": {"type": "string"},
+    "classification": {"enum": ["PUBLIC", "INTERNAL", "CONFIDENTIAL", "SECRET", "TOP_SECRET"]},
+    "expires_at": {"type": "string", "format": "date-time"},
+    "lanes": {
+      "type": "object",
+      "required": ["D", "I", "K", "W", "P"],
+      "properties": {
+        "D": {}, "I": {}, "K": {}, "W": {}, "P": {}
+      },
+      "additionalProperties": false
+    }
+  }
+}

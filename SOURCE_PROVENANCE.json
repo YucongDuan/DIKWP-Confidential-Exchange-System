@@ -1,0 +1,108 @@
+{
+  "schema": "dikwp-additive-source-preparation/v1",
+  "repository": "YucongDuan/DIKWP-Confidential-Exchange-System",
+  "bulk_index": 121,
+  "baseline_commit": "95425990e31f20b4d4403e98e04d9588d656c5ee",
+  "baseline_tree_url": "https://github.com/YucongDuan/DIKWP-Confidential-Exchange-System/tree/95425990e31f20b4d4403e98e04d9588d656c5ee",
+  "prepared_at": "2026-09-07T05:13:33.647882+00:00",
+  "status": "PREPARED_SOURCE_UNTESTED",
+  "archive_records": [
+    {
+      "original_archive_path": "dikwp_confidential_exchange_system.zip",
+      "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-Confidential-Exchange-System/95425990e31f20b4d4403e98e04d9588d656c5ee/dikwp_confidential_exchange_system.zip",
+      "sha256": "256c2eddd6d9bfbf3c7d9b44724a410753e2689631e807aaa1b28415560055af",
+      "archive_bytes": 295582,
+      "depth": 0,
+      "parent_archive": null,
+      "source_directory": "source-distribution/dikwp_confidential_exchange_system-bd50157049/source",
+      "status": "PREPARED_UNTESTED",
+      "file_count": 36,
+      "expanded_bytes": 344780,
+      "wrapper_directory_removed": "dikwp_confidential_exchange_system",
+      "project_marker_directories": [
+        "."
+      ],
+      "source_files": [
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/src/dikwp_confidential_exchange/__init__.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/src/dikwp_confidential_exchange/util.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/src/dikwp_confidential_exchange/identity.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/src/dikwp_confidential_exchange/dikwp.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/src/dikwp_confidential_exchange/crypto.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/src/dikwp_confidential_exchange/audit.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/src/dikwp_confidential_exchange/cli.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/src/dikwp_confidential_exchange/api.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/tests/test_dce.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/scripts/demo.sh",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/scripts/hardening_check.py"
+      ],
+      "build_markers": [
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/requirements.txt",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/pyproject.toml"
+      ],
+      "test_markers": [
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/tests/test_dce.py",
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/artifacts/test_results.txt"
+      ],
+      "license_paths": [
+        "source-distribution/dikwp_confidential_exchange_system-bd50157049/source/LICENSE.txt"
+      ],
+      "quarantined_workflows": [],
+      "secret_findings": []
+    }
+  ],
+  "blockers": [],
+  "test_status": "NOT_RUN",
+  "code_executed": false,
+  "preparation_tool": {
+    "pipeline_version": "1.3",
+    "pipeline_sha256": "34228db5c1096b75917f28a38597db58391c25eb7b12474a4eb01ca725b2e5a2",
+    "archive_safety_tool_sha256": "0823c9f48d4cbef435bc4ebae237160f0df729daa19fd894d66a70f311fc4737",
+    "normalizer_sha256": "e89ea55d49a044f3117e5f5b6b21c1032a9768f115f339bda907d76c943e20a4",
+    "related_repository_input_sha256": "27f19ab577696990a311162cca5e43bbbd2cb8e4f13ee5525240e1d3cd9211f4",
+    "recovery_7z_metadata_sha256": "33214a12abe7090df5bfeffe95c099034e4db9bbeddba8cd2b6dc9a60aed1a45",
+    "recovery_7z_converter_sha256": "a03c23186745442458b5755e3afc7d9795aef8c7c3aa03c14003ec3407e63b9d",
+    "limits": {
+      "max_entries": 20000,
+      "max_file_bytes": 103809024,
+      "max_total_bytes": 536870912,
+      "max_archive_bytes": 104857600,
+      "max_ratio": 200.0,
+      "max_path_depth": 64,
+      "max_path_bytes": 1024
+    },
+    "max_repository_expanded_bytes": 1073741824,
+    "max_nested_depth": 4,
+    "max_archives_per_repository": 64
+  },
+  "remote_write_performed": false,
+  "related_repositories": [
+    {
+      "name": "DIKWP-AccordMesh-OS",
+      "url": "https://github.com/YucongDuan/DIKWP-AccordMesh-OS"
+    },
+    {
+      "name": "DIKWP-MINEX-Capability-Fabric-OS",
+      "url": "https://github.com/YucongDuan/DIKWP-MINEX-Capability-Fabric-OS"
+    },
+    {
+      "name": "DIKWP-Channel-Guard-System",
+      "url": "https://github.com/YucongDuan/DIKWP-Channel-Guard-System"
+    },
+    {
+      "name": "DIKWP-SINOTRACE-",
+      "url": "https://github.com/YucongDuan/DIKWP-SINOTRACE-"
+    },
+    {
+      "name": "-C1-C3-",
+      "url": "https://github.com/YucongDuan/-C1-C3-"
+    }
+  ],
+  "totals": {
+    "expanded_bytes": 344780,
+    "archives": 1,
+    "files": 36,
+    "source_files": 11,
+    "workflow_files": 0
+  },
+  "evidence_boundary": "Additive source visibility only; original code bytes preserved; no execution, license reassignment, certification, or remote write."
+}

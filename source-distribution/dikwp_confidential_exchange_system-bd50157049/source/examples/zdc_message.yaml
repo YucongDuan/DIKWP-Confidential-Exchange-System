@@ -1,0 +1,27 @@
+dikwp_version: DCE-DIKWP-1
+mode: zdc
+purpose: HIGH_RISK_AI_GOVERNANCE_REVIEW
+classification: SECRET
+expires_at: "2026-12-31T23:59:59Z"
+lanes:
+  D:
+    - code: D_EVIDENCE_ATTACHED
+      score: 4
+      ref: sha256:demo-evidence-hash
+    - code: D_PERSONAL_DATA_PRESENT
+      score: 2
+  I:
+    - code: I_NEEDS_HUMAN_REVIEW
+      score: 5
+  K:
+    - code: K_HIGH_RISK
+      score: 4
+  W:
+    - code: W_SAFETY
+      score: 5
+    - code: W_MINIMUM_DISCLOSURE
+      score: 5
+  P:
+    - code: P_ESCALATE
+      score: 5
+      note_code: N_TIME_CRITICAL
